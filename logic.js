@@ -5,7 +5,7 @@ let screenValue = "";
 buttons.forEach((item) => {
     item.onclick = (e) => {
         buttonText = e.target.innerText;
-        console.log('button is', buttonText);
+        // console.log('button is', buttonText);
         if(buttonText == 'C'){
             screenValue = "";
             screen.value = screenValue; 
